@@ -1,0 +1,28 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+block style
+    style 
+      include ../static/style.css
+
+block content 
+    
+    section#introSection
+        div Welcome to Imran Coaching Classes
+        div Eat sleep Study repeat 
+    section#Ourmission
+        h2 Our teachers
+        div.card1
+           
+        div.card2
+           
+        div.card3
+               
+    section#sponsorsSection
+        h2 Our Services
+        div#services
+            img(src="/static/physicspn.png", alt="services", class="servicesimg")
+            img(src="/static/chemmmpn.png", alt="services", class="servicesimg2")
+            img(src="/static/mathspn.png", alt="services", class="servicesimg3")
+            img(src="/static/biopn.png", alt="services", class="servicesimg4")
